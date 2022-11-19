@@ -1,7 +1,7 @@
 import axios from 'axios';
 const apiUrl = 'http://localhost:8080/api/tasks';
 
-export function getTask() {
+export function getTasks() {
   return axios.get(apiUrl);
 };
 
